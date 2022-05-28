@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #7F7FD5 , #86A8E7,#91EAE4);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contanier{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    
+}
+.content{
+    width: 50%;  
+    height: 57%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background-color: #ffffff;
+}
+.login-content{
+    margin: 5% 10%;
+}
+.header{
+    margin: 4% 0;
+    color: #00B4DB;
+}
+.label{
+    display: block;
+    color: grey;
+    margin: 3% 0;
+}
+.inputtxt{
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    margin-top: 0.5%;
+    font-size: 1rem;
+    padding: 0.5rem;
+
+}
+.check{
+    margin-top: 5%;
+}
+.remember{
+    margin-right: 49%;
+}
+.forgot{
+    color: #00B4DB;
+}
+.btn{
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    background-color:#00B4DB;
+    border: none;
+    height: 10%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 5% 0;
+}
